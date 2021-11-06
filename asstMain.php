@@ -174,6 +174,7 @@ function DisplayDataForm(&$mysqlObj, $TableName)
         <tr>
             <th>Danger Status</th>
             <th>License Plate</th>
+            <th>Number of Passengers</th>
             <th>Date Time</th>
             <th>Incident Free</th>
             <th>Speed</th>
@@ -206,6 +207,7 @@ function DisplayDataForm(&$mysqlObj, $TableName)
         <tr>
             <td>$DangerStatus</td>
             <td>" . strtoupper($LicensePlate) . "</td>
+            <td>$NbrPassengers</td>
             <td>" . substr($DateTimeStamp, 0, 10) . " at " . substr($DateTimeStamp, 11) . "</td>
             <td>$IncidentFree</td>
             <td>$Speed</td>
