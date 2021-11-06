@@ -41,9 +41,9 @@ function DisplayTextbox($Type, $Name, $Size, $Value)
     echo "<input type = \"$Type\" name = \"$Name\" Size = \"$Size\" value = \"$Value\">";
 }   
 
-function DisplayImage($FileName, $alt, $height, $width)
+function DisplayImage($FileName, $Alt, $Height, $Width)
 {
-    echo "<img src = \"$FileName\" alt = \"$alt\" height = \"$height\" width = \"$width\">";
+    echo "<img src = \"$FileName\" alt = \"$Alt\" height = \"$Height\" width = \"$Width\">";
 }
 
 function DisplayButton($Name, $Text, $FileName = "", $alt = "")
